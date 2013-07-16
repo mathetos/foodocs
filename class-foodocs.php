@@ -1,24 +1,22 @@
 <?php
 /**
- * Device Body Class
+ * FooDocs
  *
- * @package   Device Body Class
- * @author    Brad Vincent <brad@fooplugins.com>
+ * @package   FooDocs
+ * @author    Matt Cromwell <reachme@mattcromwell.com>
  * @license   GPL-2.0+
- * @link      https://github.com/fooplugins/device-body-class
- * @copyright 2013 FooPlugins LLC
+ * @link      https://github.com/mathetos/foodocs
+ * @copyright 2013 Matt Cromwell
  */
 
-class DeviceBodyClass {
+class FooDocs {
 
 	/**
 	 * Plugin version, used for cache-busting of style and script file references.
-	 *
-	 * @since   1.0.0
-	 *
+	 * @since   0.0.1
 	 * @var     string
 	 */
-	protected $version = '1.0.0';
+	protected $version = '0.0.1';
 
 	/**
 	 * Unique identifier for your plugin.
@@ -26,16 +24,16 @@ class DeviceBodyClass {
 	 * Use this value (not the variable name) as the text domain when internationalizing strings of text. It should
 	 * match the Text Domain file header in the main plugin file.
 	 *
-	 * @since    1.0.0
+	 * @since    0.0.1
 	 *
 	 * @var      string
 	 */
-	protected $plugin_slug = 'device-body-class';
+	protected $plugin_slug = 'foodocs';
 
 	/**
 	 * Instance of this class.
 	 *
-	 * @since    1.0.0
+	 * @since    0.0.1
 	 *
 	 * @var      object
 	 */
@@ -44,7 +42,7 @@ class DeviceBodyClass {
 	/**
 	 * Return an instance of this class.
 	 *
-	 * @since     1.0.0
+	 * @since     0.0.1
 	 *
 	 * @return    object    A single instance of this class.
 	 */

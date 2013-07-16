@@ -1,23 +1,23 @@
 <?php
 /**
- * Device Body Class
+ * FooDocs
  *
- * Appends device-specific class names onto the body tag
-  *
- * @package   device-body-class
- * @author    Brad Vincent <brad@fooplugins.com>
+ * A simple documentation plugin for helping easily and intuitively create documentation for WordPress plugins.
+ *
+ * @package   foodocs
+ * @author    Matt Cromwell <reachme@mattcromwell.com>
  * @license   GPL-2.0+
- * @link      https://github.com/fooplugins/device-body-class
- * @copyright 2013 FooPlugins LLC
+ * @link      https://github.com/mathetos/foodocs
+ * @copyright 2013 Matt Cromwell
  *
  * @wordpress-plugin
- * Plugin Name: Device Body Class
- * Plugin URI:  https://github.com/fooplugins/device-body-class
- * Description: Appends device-specific class names onto the body tag
- * Version:     1.0.0
- * Author:      bradvin
- * Author URI:  http://fooplugins.com
- * Text Domain: devicebodyclass-locale
+ * Plugin Name: FooDocs
+ * Plugin URI:  https://github.com/mathetos/foodocs
+ * Description: A simple documentation plugin for helping easily and intuitively create documentation for WordPress plugins.
+ * Version:     0.0.1
+ * Author:      mathetos
+ * Author URI:  http://mattcromwell.com
+ * Text Domain: foodocs-locale
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path: /lang
@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 //include plugin class
-require_once( plugin_dir_path( __FILE__ ) . 'class-devicebodyclass.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'class-foodocs.php' );
 
 //include mobile detect class
 if (!class_exists('Mobile_Detect')) {
