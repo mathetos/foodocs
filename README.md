@@ -1,7 +1,7 @@
 foodocs
 =======
 
-WordPress plugin that adds device-specific class names to the body tag.
+A WordPress plugin for organizing and showing your plugin documentation.
 
 This project is part of "FooCamp", a blog series by http://fooplugins.com. 
 See all the FooCamp article's from FooPlugins and my site here:
